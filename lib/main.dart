@@ -11,7 +11,6 @@ void main() async {
   runApp(MaterialApp(home: first(),debugShowCheckedModeBanner: false,));
 }
 
-
 class first extends StatefulWidget {
   DocumentSnapshot? document;
   first([this.document]);
